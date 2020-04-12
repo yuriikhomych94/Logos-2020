@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: silver;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.area {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 7px;
+    outline: none;
+}
+
+
+
+.first__column {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.second__column {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.third__column {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.forth__column {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.fifth__column {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* BUTTONS */
+button {
+    height: 50px;
+    width: 50px;
+    border-radius: 7px;
+    background-color: white;
+    border: 1px solid transparent;
+}
+
+.backspace, .tab {
+    height: 50px;
+    width: 100px;  
+    border-radius: 7px;
+    background-color: white;
+    border: solid transparent;
+} 
+
+
+.capslock, .enter {
+    height: 50px;
+    width: 110px;  
+    border: 1px solid transparent;
+    border-radius: 7px;
+    background-color: white;
+
+}
+
+
+.keyShift16 { 
+    height: 50px;
+    width: 140px;  
+    border-radius: 7px;
+    background-color: white;
+    border: 1px solid transparent;
+}
+
+.space {
+    width: 890px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: white;
+    border: 1px solid transparent;
+}

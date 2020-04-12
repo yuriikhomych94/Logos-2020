@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTAINER */
+
+.container {
+    width: 60%;
+    height: 80vh;
+    border: 12px solid #000;
+    border-radius: 30px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+h2 {
+    color: red;
+    font-size: 30px;
+}
+
+/* CLASS LIST */
+.list{ 
+    margin-top: 30px;
+    width: 40%; 
+}
+
+.list__task{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.checkbox { 
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 20px;
+}
+
+
+
+/* LINE  */
+.line {
+        border-right: 12px solid black;
+}
+ 
+hr {
+    border: 2px solid black;
+    width: 295px;
+    border-radius: 5px;
+}
+
+
+
+
+/* CLASS ADD  */
+
+.add {
+    margin-top: 30px;
+    width: 40%;
+}
+
+.btnAdd {
+    width: 120px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    margin: 23px 100px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+input[type=text] {
+    border: 0px solid;
+    outline: none;
+    margin-top: 30px;
+    width: 295px;
+    height: 30px;
+}
